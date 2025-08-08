@@ -1,0 +1,52 @@
+{
+    // Editor settings
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.renderLineHighlight": "all",
+    "editor.minimap.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // Requires Prettier extension
+
+    // Files settings
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    // HTML settings
+    "html.format.wrapLineLength": 120,
+    "html.format.indentInnerHtml": true,
+
+    // CSS/SCSS/Less settings
+    "css.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore",
+    "less.lint.unknownAtRules": "ignore",
+
+    // JavaScript/TypeScript settings
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    // Terminal settings
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.defaultProfile.windows": "PowerShell", // Or "Git Bash", "cmd" etc.
+    "terminal.integrated.defaultProfile.linux": "bash", // Or "zsh" etc.
+    "terminal.integrated.defaultProfile.osx": "zsh", // Or "bash" etc.
+
+    // Workbench settings
+    "workbench.colorTheme": "Default Dark Modern", // Or your preferred theme
+    "workbench.iconTheme": "vs-seti", // Or your preferred icon theme
+    "workbench.editor.empty.hint": "hidden",
+
+    // Extensions settings (examples)
+    "liveServer.settings.donotShowInfoMsg": true, // For Live Server extension
+    "emmet.triggerCharacters": {
+        "html": "tab",
+        "css": "tab",
+        "jsx": "tab",
+        "javascriptreact": "tab",
+        "typescriptreact": "tab"
+    }, // Emmet settings
+}
