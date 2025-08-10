@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import { SearchBox } from "./SearchBox";
-import { ThemeProvider } from "./ThemeContext";
-import ThemedComponent from "./ThemedComponent";
+import { ThemeProvider } from "./ContextApi/ThemeContext";
+import ThemedComponent from "./ContextApi/ThemedComponent";
 import ForwardRefContainer from "./ForwardRef/ForwardRefContainer";
 import MouseTracker from "./RenderProps/MouseTracker";
 import ErrorBoundaryContainer from "./ErrorBoundary/ErrorBoundaryContainer";
