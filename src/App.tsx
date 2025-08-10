@@ -4,6 +4,8 @@ import { SearchBox } from "./SearchBox";
 import { ThemeProvider } from "./ThemeContext";
 import ThemedComponent from "./ThemedComponent";
 import ForwardRefContainer from "./ForwardRef/ForwardRefContainer";
+import MouseTracker from "./RenderProps/MouseTracker";
+import ErrorBoundaryContainer from "./ErrorBoundary/ErrorBoundaryContainer";
 
 function App() {
   return (
@@ -12,6 +14,14 @@ function App() {
         <ThemedComponent />
         <SearchBox />
         <ForwardRefContainer />
+        <ErrorBoundaryContainer />
+        <MouseTracker
+          render={({ x, y }) => (
+            <h2>
+              The mouse position is ({x}, {y})
+            </h2>
+          )}
+        />
       </ThemeProvider>
     </div>
   );
