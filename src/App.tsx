@@ -6,11 +6,12 @@ import ThemedComponent from "./ContextApi/ThemedComponent";
 import ForwardRefContainer from "./ForwardRef/ForwardRefContainer";
 import MouseTracker from "./RenderProps/MouseTracker";
 import ErrorBoundaryContainer from "./ErrorBoundary/ErrorBoundaryContainer";
+import TradingGrid from "./GridLayout/TradingGrid";
 
 function App() {
   return (
     <div className="App">
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <ThemedComponent />
         <SearchBox />
         <ForwardRefContainer />
@@ -21,8 +22,9 @@ function App() {
               The mouse position is ({x}, {y})
             </h2>
           )}
-        />
-      </ThemeProvider>
+        /> */}
+      <TradingGrid />
+      {/* </ThemeProvider> */}
     </div>
   );
 }
